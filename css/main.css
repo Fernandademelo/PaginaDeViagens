@@ -5,3 +5,53 @@
     border: #f4f4f4 3px solid !important;
 
 }
+
+.section-follow .fa-3x{
+    margin: 5px 8px;
+}
+
+.card-panel  {
+    margin: 20px 40px;
+    background: rgb(209,212,99);
+background: radial-gradient(circle, rgba(209,212,99,1) 0%, rgba(252,207,70,1) 100%);
+}
+
+body{
+    font-family: 'Boogaloo', cursive;
+}
+
+.card-title{
+    margin: -25px 5px;
+    font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 15px #fad400, 0 0 40px #fad400, 0 0 50px #fad400, 0 0 20px #fad400, 0 0 10px #fad400;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 15px #ff6600, 0 0 40px #ff6600, 0 0 50px #ff6600, 0 0 20px #ff6600, 0 0 10px #ff6600, 0 0 15px #ff6600;
+  }
+}
+
+.slider .slides h3{
+    font-size: 70px;
+    margin-top: 40px;
+    color: rgb(255, 136, 0);
+}
+
+.slider .slides h4{
+    font-size: 45px;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-fixed .brand-logo{
+    font-size: 35px;
+}
+
